@@ -14,6 +14,10 @@ public class AddressBook {
     public void RemoveBuddy(String name) {
         str.remove(name);
     }
+
+    public static void main(String[] args) {
+        System.out.println("Address Book");
+    }
 }
 
 
